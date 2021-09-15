@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+
+<!-- No one EXceed us. -->
+
+<html lang="ja">
+    <head>
+        <meta charset = "utf-8">
+        <title>DTM夏特訓</title>
+        <meta name = "description" content = "">
+        <link rel = "icon" type = "image/png" href = "images/favicon.png">
+        
+    <!-- CSS -->
+        <link rel = "stylesheet" href = "https://unpkg.com/ress/dist/ress.min.css">
+        <link href = "https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap" rel = "stylesheet">
+        <link href="css/style.css" rel = "stylesheet">
+    </head>
+    
+    <body>
+        <div class = "big-bg">
+            <header class = "page-header wrapper">
+                <h1>
+                    <a href = "index.html"><img class = "logo" src = "images/CIT_masuda.png" alt = "gomibako"></a>
+                </h1>
+                <nav>
+                    <ul class = "main-nav">
+                        <li><a href = "index.html">Home</a></li>
+                        <li><a href = "news.html">News</a></li>
+                        <li><a href = "team.html">Team</a></li>
+                        <li><a href = "contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        
+        <div class = "news-contents wrapper">
+            <article>
+                
+                <!--
+                <h2 class = "sub-title under-line">テスト段落</h2>
+                
+                <h3>小見出し</h3>
+                
+                <p></p>
+                <p>文章</p>
+                <p>あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん</p>
+                
+                <p>画像</p>
+                <img src = "images/twitter.png" alt = "image">
+                
+                <h3>音源</h3>
+                <audio controls>
+                    <source src="sound/20210831_Before.wav">
+                </audio>
+                
+                <p>テスト段落終わり</p>
+                
+                <hr>
+                -->
+                
+                
+                
+                <h2 class = "sub-title under-line">講師紹介</h2>
+                
+                <h3>Len Dilemma 先輩</h3>
+                <p>DTM班３回生の先輩</p>
+                <p>いつもD班に助言をしてくれる</p>
+                
+                <h3>講義内容</h3>
+                <p>ミックス</p>
+                
+                <hr>
+                
+                
+                
+                <h2 class = "sub-title under-line">修正前</h2>
+                
+                <h3>音源</h3>
+                <audio controls>
+                    <source src="sound/20210831.wav">
+                </audio>
+                
+                <h3>なにが分からないのか</h3>
+                <p>ミックスなんも知らん</p>
+                <p>適当にリバーブとディレイとパン付けただけ</p>
+                
+                <hr>
+                
+                
+                
+                <h2 class = "sub-title under-line">修正内容</h2>
+                
+                <h3>①Masterにlimiterつけるな</h3>
+                <p>なんでlimiterかけたんですか？</p>
+                <p>→音割れしてる（0dBを超えてしまっている）ところがあるから．．．</p>
+                <p>limiterで削るということは元の波形を削っている　→　本来の音ではなくなってしまう</p>
+                <p>じゃあそもそもの音を小さくしましょう</p>
+                
+                <h3>Before After</h3>
+                <uls>
+                    <lis><img class = "abc" src="video/limiter_before.gif" width="360px" height="180px" alt=""></lis>
+                    <lis><img class = "abc" src="video/limiter_after.gif" width="360px" height="180px" alt=""></lis>
+                </uls>
+                
+                <hr>
+                
+                <h3>②そもそもMasterにエフェクトかけるな</h3>    
+                <p>（同じ部屋で集まって収録するんだから、みんな同じように音が響いたりしないんですか？）</p>
+                <p>ライブ感出したいならいいけどヘッドフォンで聞くにはいらない配慮【要出典】</p>
+                <p>トランジェントが失われてしまうので、各パートに適したエフェクトを入れましょう</p>
+                <p>→Masterにかかっているエフェクト全部消しました</p>
+                
+                <hr>
+                
+                <h3>③トランジェントを考える</h3>  
+                <p>トランジェント　→　波形の出だしの特長</p>
+                <img src = "images/wave.png" alt = "image">
+                <p>出だしが大きいとメリハリの付いた音になる</p>
+                <p>裏拍とかドラムとかはこのような波形のほうが気分良し</p>
+                <p>トランジェント変更にはコンプレッサーを使う</p>
+                
+                <h3>変更するとこんな感じに</h3>
+                <p>コンプかける前</p>
+                <audio controls>
+                    <source src="sound/20210805_Guitar_Before.wav">
+                </audio>
+                
+                <p>コンプかけた後</p>
+                <audio controls>
+                    <source src="sound/20210805_Guitar_After.wav">
+                </audio>
+                
+                <h3>トランジェントを変更したところ（鋭利にしたところ）</h3>
+                <p>裏拍のギター</p>
+                <p>ドラム</p>
+                <p>アルペジオ</p>
+                
+                <hr>
+                
+                
+                
+                <h3>④豆知識</h3>
+                
+                <h3>イコライザー</h3>
+                <p>イコライザーで聞きたい音をあげるな（聞きたい音以外をさげる）</p>
+                <p>の後全体の音量を上げる</p>
+                <p>20000Hzらへんをいじると音の抜けがよくなるらしい</p>
+                
+                <h3>次の日聞くとなんか違うように聞こえる</h3>
+                <p>寝起き直後はテンポが早く感じる</p>
+                <p>低音は慣れてくると聞こえづらくなってくる（リファレンスで耳を戻そう）</p>
+                
+                <hr>
+                
+                
+                
+                <h2 class = "sub-title under-line">修正後</h2>
+                
+                <h3>音源</h3>
+                <audio controls>
+                    <source src="sound/20210831_After.wav">
+                </audio>
+                
+                <hr>
+                
+                
+                
+                <h2 class = "sub-title under-line">感想</h2>
+                
+                <p>なにがなにやらって感じ</p>
+                <p>今度から曲を作るごとにアドバイス欲しいです</p>
+                
+            </article>
+            
+            <aside class = "side">
+                <h2 class = "sub-title under-line">見出し</h2>
+                <ul class = "side-nav">
+                    <li><a href = "index.html">HOME</a>
+                    <p class = "side-explanation">前に使ったページの再利用です</p>
+                    <p class = "side-explanation">あんま詮索しないでください</p></li>
+                    <hr>
+                    <li><a href = "news.html">NEWS</a>
+                    <p class = "side-explanation">りんご</p>
+                    <p class = "side-explanation">ごりら</p>
+                    <p class = "side-explanation">らっぱ</p></li>
+                    <hr>
+                    <li><a href = "team.html">TEAM</a>
+                    <p class = "side-explanation">ぱんつ</p>
+                    <p class = "side-explanation">あ</p></li>
+                    <hr>
+                    <li><a href = "content.html">CONTACT</a>
+                    <p class = "side-explanation">い</p>
+                    <p class = "side-explanation">う</p></li>
+                    <hr>
+                    <p class = "side-sub-title">え</p>
+                    <p class = "side-explanation">おかきくいたい</p>
+                    <p class = "side-explanation">そかｗ</p>
+                    
+                </ul>
+            </aside>
+        </div>
+            
+        <footer>
+            <div id = "wrapper" class = "wrapper">
+                <p><a href = "https://twitter.com/NeX_Finger"><small>&copy; 2020 masuda</small></a></p>
+            </div>
+        </footer>
+    </body>
+</html>
